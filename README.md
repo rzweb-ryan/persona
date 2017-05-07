@@ -1,14 +1,15 @@
 # persona built system in Scala
 
-##Data source: 
-###log files from a famouse ads provider platform in China
+*Data source: 
+**log files from a famouse ads provider platform in China
 
-##ARCHITECTURE
+*ARCHITECTURE
 
-###flume-redis-spark-yarn-hdfs(hbase)
+**flume-redis-spark-yarn-hdfs(hbase)
 
 
-LOG PARAM:
+*LOG PARAM:
+
            val sessionid: String, //会话标识
            val advertisersid: Int, //广告主id
            val adorderid: Int, //广告id
